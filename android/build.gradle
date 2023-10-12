@@ -1,5 +1,3 @@
-package android
-
 group 'com.github.alezhka.flutter_incoming_call'
 version '1.0-SNAPSHOT'
 
