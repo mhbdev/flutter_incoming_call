@@ -39,9 +39,9 @@ class FlutterIncomingCall {
   }
 
   static Future<void> displayIncomingCallAdvanced(String uuid, String name,
-      { String? avatar = null,
-        String? handle = null,
-        HandleType? handleType = null,
+      { String? avatar,
+        String? handle,
+        HandleType? handleType,
         bool hasVideo = false,
         bool supportsDTMF = false,
         bool supportsHolding = false,

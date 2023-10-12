@@ -1,6 +1,3 @@
-
-
-
 const kEventCallStarted = "call_started";
 const kEventCallAccept = "call_accept";
 const kEventCallDecline = "call_decline";
@@ -91,7 +88,6 @@ class MuteEvent extends BaseCallEvent {
       'MuteEvent { uuid: $uuid, mute: $mute }';
 
 }
-
 
 class DmtfEvent extends BaseCallEvent {
 
